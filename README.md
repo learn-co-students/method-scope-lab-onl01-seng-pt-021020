@@ -56,7 +56,7 @@ describe "#catch_phrase" do
     expect{catch_phrase(phrase)}.to output("It's-a me, Mario!\n").to_stdout
   end
 end
-```
+```method
 
 ### Part II: Understanding Method Scope
 
@@ -80,7 +80,7 @@ rescue_princess_peach
 puts status
 ```
 
-2 . Run the file with `ruby lib/rescue_princess_peach.rb` in your terminal. You should see the following:
+2 . Run the file with in your terminal. You should see the following:
 
 ```ruby
 Hooray! Mario has rescued Princess Peach.
